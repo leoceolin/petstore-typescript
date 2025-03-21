@@ -52,34 +52,30 @@ For more information about the API: [Find out more about Swagger](http://swagger
 <!-- Start SDK Installation [installation] -->
 ## SDK Installation
 
-> [!TIP]
-> To finish publishing your SDK to npm and others you must [run your first generation action](https://www.speakeasy.com/docs/github-setup#step-by-step-guide).
-
-
 The SDK can be installed with either [npm](https://www.npmjs.com/), [pnpm](https://pnpm.io/), [bun](https://bun.sh/) or [yarn](https://classic.yarnpkg.com/en/) package managers.
 
 ### NPM
 
 ```bash
-npm add <UNSET>
+npm add petstore
 ```
 
 ### PNPM
 
 ```bash
-pnpm add <UNSET>
+pnpm add petstore
 ```
 
 ### Bun
 
 ```bash
-bun add <UNSET>
+bun add petstore
 ```
 
 ### Yarn
 
 ```bash
-yarn add <UNSET> zod
+yarn add petstore zod
 
 # Note that Yarn does not install peer dependencies automatically. You will need
 # to install zod as shown above.
