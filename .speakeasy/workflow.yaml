@@ -12,6 +12,9 @@ targets:
     petstore:
         target: typescript
         source: petstore-oas
+        publish:
+            npm:
+                token: $npm_token
         codeSamples:
             registry:
                 location: registry.speakeasyapi.dev/avanteer/apps/petstore-oas-typescript-code-samples
