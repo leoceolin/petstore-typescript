@@ -1,0 +1,20 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    petstore-oas:
+        inputs:
+            - location: openapi.yaml
+        overlays:
+            - location: .speakeasy/speakeasy-modifications-overlay.yaml
+        registry:
+            location: registry.speakeasyapi.dev/avanteer/apps/petstore-oas
+targets:
+    petstore:
+        target: typescript
+        source: petstore-oas
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/avanteer/apps/petstore-oas-typescript-code-samples
+            labelOverride:
+                fixedValue: Typescript (SDK)
+            blocking: false
